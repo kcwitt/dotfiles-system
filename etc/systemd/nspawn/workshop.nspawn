@@ -1,0 +1,14 @@
+[Exec]
+Hostname=workshop
+PrivateUsers=no
+
+[Files]
+Bind=/home
+Bind=/workshop
+BindReadOnly=/tmp/.X11-unix
+Bind=/run/user/1000/pulse
+Bind=/dev/snd
+
+[Network]
+Private=no
+VirtualEthernet=no
